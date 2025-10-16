@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #ff6a6a, #ffb347);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  width: 350px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  overflow: hidden;
+  text-align: center;
+}
+
+.profile-card {
+  position: relative;
+}
+
+.profile-pic {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.profile-info {
+  padding: 15px;
+}
+
+.profile-info h2 {
+  margin-bottom: 5px;
+}
+
+.profile-info p {
+  color: #666;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #fff;
+}
+
+button {
+  border: none;
+  background-color: white;
+  font-size: 30px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+.like {
+  color: red;
+}
+
+.dislike {
+  color: gray;
+}
